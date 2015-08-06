@@ -99,7 +99,6 @@
           - libsndfile1-dev
           - libxinerama-dev
           - x11proto-print-dev
-          - libXp-dev
           - libxrender-dev
           - libxrandr-dev
           - libxfixes-dev
