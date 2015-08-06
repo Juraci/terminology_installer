@@ -1,0 +1,12 @@
+---
+
+  - name: Clones efl repo and compiles it from source
+    hosts: local
+    user: "{{ user }}"
+    sudo: yes
+
+    tasks:
+
+
+      - name: clones efl repo
+        git: repo=http://git.enlightenment.org/core/efl.git dest=/home/{{user}}/enlight/efl
