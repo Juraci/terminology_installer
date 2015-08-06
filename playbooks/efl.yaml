@@ -3,7 +3,7 @@
   - name: Clones efl repo and compiles it from source
     hosts: local
     user: "{{ user }}"
-    sudo: yes
+    sudo: no
 
     tasks:
 
